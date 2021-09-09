@@ -22,6 +22,8 @@ To use this system, users need to first download MySQL server and NetBeans IDE. 
 Please remove placeholders and fill in information of the email address for the system to automatically send emails in src/project/Emails.java file at line 31, 45, and 58. Also, at line 20 of src/project/ConnectionProvider.java, please change "yourMySQLPassword" to the actual password of the local MySQL server password. 
 ### Launch application
 Then, users just need to run the home.java file in src/forms directory to launch the application. 
+## Testing
+The testing of this application is done using JUnit Tests. These tests mainly cover functionalities of adding books, making borrow & return requests, and verifying & declining requests. 
 ## Attributions and References
 ### Icons
 #### userHome form:
