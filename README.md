@@ -23,7 +23,7 @@ Please remove placeholders and fill in information of the email address for the 
 ### Launch application
 Then, users just need to run the home.java file in src/forms directory to launch the application. 
 ## Testing
-The testing of this application is done using JUnit Tests. These tests mainly cover functionalities of adding books, making borrow & return requests, and verifying & declining requests. 
+The testing of this application is done using JUnit Tests. These tests mainly cover functionalities of adding books, making borrow & return requests, and verifying & declining requests. For the reason that signing up & logging in require email checks, tests on the account management system are not included. When testing users' borrow and return requests, an account with user name "test" is created ahead of time to do the tests. 
 ## Attributions and References
 ### Icons
 #### userHome form:
